@@ -276,7 +276,7 @@ li {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/Dark-bg-mob_@1x.jpg');
+    url(../images/hero/Dark-bg-mob_@1x.jpg);
   background-color: var(--brand-color);
 
   background-repeat: no-repeat;
@@ -293,7 +293,7 @@ li {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/Dark-bg-mob_@2x.jpg');
+      url(../images/hero/Dark-bg-mob_@2x.jpg);
   }
 }
 
@@ -304,7 +304,7 @@ li {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg_tab@1x.jpg);
+      url(../images/hero/Dark-bg_tab@1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -315,7 +315,7 @@ li {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg_tab@2x.jpg);
+      url(../images/hero/Dark-bg_tab@2x.jpg);
   }
 }
 }
@@ -329,7 +329,7 @@ li {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office\ 1_desct@1x.jpg);
+      url(../images/hero/people-office\ 1_desct@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -339,7 +339,7 @@ li {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office\ 1_desct@2x.jpg);
+        url(../images/hero/people-office\ 1_desct@2x.jpg);
     }
   }
 }
