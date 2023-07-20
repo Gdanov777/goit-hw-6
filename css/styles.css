@@ -381,6 +381,8 @@ body {
   }
 }
 
+
+
 .subtitle {
   margin-bottom: 8px;
 
@@ -433,6 +435,19 @@ body {
   }
 }
 
+.feature-box{
+ width: 264px;
+  height: 112px;
+  left: 0;
+  top: 0;
+  background: var(--light);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+
+}
 @media only screen and (min-width: 1200px) {
   .feature-box {
     display: flex;
@@ -461,7 +476,7 @@ body {
 }
                               
   .feature-icon {
-    display: none;
+    
   }
 
 
@@ -653,8 +668,9 @@ body {
   border-top: none;
 }
 
-                                                    /* CUSTUMERS */
-.custumers-box {
+                                                    /* CUSTOMERS */
+                                                    
+.customers-list{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -662,18 +678,17 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .custumers-box {
+  .customers-list {
     gap: 24px;
   }
 }
 
-.custumers-link {
+.icon-customers {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 168px;
   height: 88px;
-
   border: 1px solid var(--light-slate);
   border-radius: 4px;
   fill: var(--light-slate);
@@ -682,18 +697,19 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.custumers-icon {
+.customers-icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.custumers-link:hover .custumers-icon,
-.custumers-link:focus .custumers-icon {
+.icon-customers:hover .customers-icon,
+.icon-customers:focus .customers-icon {
   fill: var(--action-color);
 }
-.custumers-link:hover,
-.custumers-link:focus {
+
+.icon-customers:hover,
+.icon-customers:focus {
   border: 1px solid var(--action-color);
   outline: transparent;
 }
@@ -959,7 +975,7 @@ background-color: #404bbf;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-} 
+} */
 
 .modal-btn {
   display: flex;
